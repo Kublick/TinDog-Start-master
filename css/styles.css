@@ -3,30 +3,44 @@
     color: white;
 }
 
+#features {
+    padding: 7% 15%;
+}
+
+.icon_color {
+    color:#ef8172;
+    margin-bottom: 1rem;
+}
+
 body {
     font-family: "Montserrat";
     font-weight: 400;
 }
 
-h5 {
-    font-family: Ubuntu;
-    font-size: 2.5rem;
-    word-spacing: -1px;
-    
-}
 .container-fluid{
     padding: 3% 15%
 }
 
 
-h1 { font-family: Montserrat;
+h1 { font-family: "Montserrat";
      font-weight: 900;
      line-height: 1.5;
      font-size: 4rem;
      size: 3em;
-    
+  }
 
-}
+h3 {
+    font-family: "Montserrat";
+    font-weight: bold;
+    color: black;
+    font-size: 1.5rem;
+    text-align: center;
+    
+  }
+
+  p {
+      color: #8f8f8f;
+  }
 
 .rotateimg45 {
     width: 60%;
@@ -42,7 +56,6 @@ h1 { font-family: Montserrat;
     font-family: "Ubuntu";
     font-size: 2.5rem;
     font-weight: bold;
-    word-spacing: -1px;
     padding: 0 18px;
 }
 .nav-item {
@@ -57,4 +70,13 @@ h1 { font-family: Montserrat;
 
 .download-button {
    margin: 5% 3% 5% 0; 
+}
+
+.feature_box {
+    text-align: center;
+    padding: 5%;
+}
+
+.icon_color:hover {
+    color: #ff4c68;
 }
